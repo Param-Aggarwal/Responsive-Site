@@ -1,0 +1,186 @@
+
+ body{
+   font-family: sans-serif;
+   text-align: center;
+ }
+
+ h1, h2, h3, h4, h5, h6{
+  font-family: sans-serif;
+  font-weight: bold;
+ }
+
+ h2{
+   line-height: 1.5;
+   font-weight: bold;
+   font-size: 3rem;
+ }
+
+ p{
+   font-family: sans-serif;
+   font-weight: lighter;
+   color: #8f8f8f;
+ }
+
+/* heading */
+
+.big-heading{
+  font-weight: bold;
+  font-size: 4rem;
+  color: white;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* sections */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.coloured-section#testimonials{
+  background-color: #ef8172;
+  color: white;
+}
+
+.coloured-section#press{
+  background-color: #ef8172;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* navbar */
+
+.navbar{
+  padding-bottom: 5%;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.nav-item{
+  color: white;
+  padding: 0 18px;
+}
+
+         /* title */
+
+.downloadbutton{
+  padding: 7% 3%;
+}
+
+.image{
+ transform: rotate(25deg);
+ width: 20%;
+ position: absolute;
+ right: 25%;
+}
+
+            /* features */
+#features{
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-icon{
+  color: #ef8172;
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+.feature-heading{
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.feature-description{
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #8f8f8f;
+}
+
+/* testimonials */
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press */
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 100px;
+}
+
+
+/* pricing */
+
+#pricing{
+  padding: 7%;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* call to ACTION  section*/
+
+#cta{
+  padding: 7% 15%;
+}
+
+.download-button{
+  margin: 25px 10px;
+}
+
+/* footer */
+#footer{
+  padding: 5% 25% 2%;
+}
+
+.social{
+  margin: 8px 8px;
+}
+
+.copyright{
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #8f8f8f;
+}
+
+
+@media (max-width: 992px){
+  #title{
+    text-align: center;
+  }
+  .image{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+
+  }
+}
